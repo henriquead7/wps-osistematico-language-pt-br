@@ -54,7 +54,7 @@ Remova qualquer um deles, ou outros relacionados à tradução/templates, antes 
 
 ### Download do pacote
 
-Você pode encontrar as releases e fetuar o download acessando **este [link](https://github.com/HenriqueAD7/wps-osistematico-language-pt-br/releases/)**.
+Você pode encontrar as releases e fetuar o download acessando **[este link](https://github.com/HenriqueAD7/wps-osistematico-language-pt-br/releases/)**.
 
 ***
 
