@@ -9,7 +9,7 @@ O pacote contem alguns aspectos peculiares, sendo eles:
 * Symbol Fonts;
 * Idioma da interface do WPS Office provinda da versão para Windows;
 * Formulas do WPS Spreadsheets em português;
-* Nenhum template adicional acompanha este pacote.
+* Nenhum template adicional acompanha este pacote, **[acesse este link para acessar os templates](https://github.com/HenriqueAD7/wps-osistematico-templates)**.
 
 ***
 
