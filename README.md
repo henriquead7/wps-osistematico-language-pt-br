@@ -1,9 +1,9 @@
 # wps-osistematico-language-pt-br
 Refatoração do pacote de tradução, idioma, dicionário do WPS Office Linux PT-BR (OSistemático).
 
-Este pacote éum projeto pessoal criado para sanar minhas necessidades ao utilizar a suíte WPS Office (Linux).
+Este pacote é um projeto pessoal criado para sanar minhas necessidades ao utilizar a suíte WPS Office (Linux).
 
-O pacote conteúm alguns aspectos peculiares, sendo eles:
+O pacote contem alguns aspectos peculiares, sendo eles:
 
 * Dicionário baseado no Huspell, para os idiomas PT-PT e PT-BR;
 * Symbol Fonts;
@@ -49,6 +49,12 @@ Optei por mudar o nome do pacote para melhor entendimento, pretendendo assim man
 * wps-templates-osistematico-2019-1.0.
 
 Remova qualquer um deles, ou outros relacionados à tradução/templates, antes de instalar o pacote.
+
+***
+
+### Download do pacote
+
+Você pode encontrar as releases e fetuar o download acessando **este [link](https://github.com/HenriqueAD7/wps-osistematico-language-pt-br/releases/)**.
 
 ***
 
