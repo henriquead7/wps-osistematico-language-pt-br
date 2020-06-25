@@ -1,0 +1,207 @@
+#!/usr/bin/env bash
+# autor: HenriqueAD <www.osistematico.com.br>
+# descrição: Remove outros pacotes de tradução previamente instalados.
+# version: 1.0
+# licença: MIT License
+
+# Não é necessário rermover o pacote de templates
+# wps-templates-osistematico-2019-1.0.deb
+#
+
+# Pacotes que serão removidos antes da instalação da nova tradução
+#
+# 1 wps-office-language-all_0.1_all.deb
+# 2 wps-office-mui-pt-br_1.1.0-0kaiana1_all.deb
+# 3 wps-office-language-all-osistematico-2.0.deb
+# 4 wps-office-language-pt-br-osistematico-4.0.deb
+# 5 wps-language-pt-br-osistematico-2019-1.0.deb
+# 6 wps-language-pt-pt-osistematico-2019-1.0.deb
+# 7 wps-language-pt-br-osistematico-2019-2.0.deb
+# 8 wps-language-pt-pt-osistematico-2019-2.0.deb
+# 9 wps-templates-osistematico-2019-1.0.deb
+
+rm -rf /opt/kingsoft/wps-office/office6/mui/pt_BR/templates/
+
+rm -rf /opt/kingsoft/wps-office/office6/dicts/spellcheck/pt_BR/
+rm -rf /opt/kingsoft/wps-office/office6/dicts/spellcheck/pt_PT/
+
+rm -rf /opt/kingsoft/wps-office/office6/mui/pt_BR/
+rm -rf /opt/kingsoft/wps-office/office6/mui/pt_PT/
+
+
+# Verifica os pacotes, removendo-os caso exista
+
+# 1 wps-office-language-all_0.1_all.deb
+sudo dpkg -l | grep wps-office-language-all_0.1
+
+    if [ $? -eq 0 ]
+       then
+
+         sudo dpkg -r wps-office-language-all_0.1 -y
+
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-office-language-all_0.1_all.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo "sudo apt remove wps-office-language-all_0.1"
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 2 wps-office-mui-pt-br_1.1.0-0kaiana1_all.deb
+sudo dpkg -l | grep wps-office-mui-pt-br_1.1.0-0kaiana1
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-office-mui-pt-br_1.1.0-0kaiana1 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-office-mui-pt-br_1.1.0-0kaiana1_all.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-office-mui-pt-br_1.1.0-0kaiana1 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 3 wps-office-language-all-osistematico-2.0.deb
+sudo dpkg -l | grep wps-office-language-all-osistematico-2.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-office-language-all-osistematico-2.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-office-language-all-osistematico-2.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-office-language-all-osistematico-2.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+  
+# 4 wps-office-language-pt-br-osistematico-4.0.deb
+sudo dpkg -l | grep wps-office-language-pt-br-osistematico-4.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-office-language-pt-br-osistematico-4.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-office-language-pt-br-osistematico-4.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-office-language-pt-br-osistematico-4.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 5 wps-language-pt-br-osistematico-2019-1.0.deb
+sudo dpkg -l | grep wps-language-pt-br-osistematico-2019-1.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-language-pt-br-osistematico-2019-1.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-language-pt-br-osistematico-2019-1.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-language-pt-br-osistematico-2019-1.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 6 wps-language-pt-pt-osistematico-2019-1.0.deb
+sudo dpkg -l | grep wps-language-pt-pt-osistematico-2019-1.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-language-pt-pt-osistematico-2019-1.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-language-pt-pt-osistematico-2019-1.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-language-pt-pt-osistematico-2019-1.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 7 wps-language-pt-br-osistematico-2019-2.0.deb
+sudo dpkg -l | grep wps-language-pt-br-osistematico-2019-2.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-language-pt-br-osistematico-2019-2.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-language-pt-br-osistematico-2019-2.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-language-pt-br-osistematico-2019-2.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 8 wps-language-pt-pt-osistematico-2019-2.0.deb
+sudo dpkg -l | grep wps-language-pt-pt-osistematico-2019-2.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-language-pt-pt-osistematico-2019-2.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-language-pt-pt-osistematico-2019-2.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-language-pt-pt-osistematico-2019-2.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+
+# 9 wps-templates-osistematico-2019-1.0.deb
+sudo dpkg -l | grep wps-templates-osistematico-2019-1.0
+
+    if [ $? -eq 0 ]
+       then
+         sudo dpkg -r wps-templates-osistematico-2019-1.0 -y
+         echo ""
+         echo " SE DER ERRO, REMOVA ANTES O PACOTE: "
+         echo ""
+         echo "wps-templates-osistematico-2019-1.0.deb"
+         echo ""
+         echo " VOCÊ PODE UTILIZAR O MESMO DEB OU O COMANDO: "
+         echo " sudo apt remove wps-templates-osistematico-2019-1.0 "
+         echo ""
+         echo " PROVAVELMENTE DEPOIS DISSO NÃO OCORRERÁ MAIS ERROS"
+         echo ""
+         echo ""
+    fi
+  
+exit

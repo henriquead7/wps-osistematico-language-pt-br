@@ -1,0 +1,16 @@
+Package: wps-osistematico-language-pt-br
+Priority: optional
+Section: localization
+Replaces: wps-office-language-all, wps-office-language-all_0.1, wps-office-mui-pt-br_1.1.0-0kaiana1, wps-office-language-all-osistematico-2.0, wps-office-language-pt-br-osistematico-4.0, wps-language-pt-br-osistematico-2019-1.0, wps-language-pt-pt-osistematico-2019-1.0, wps-language-pt-br-osistematico-2019-2.0, wps-language-pt-pt-osistematico-2019-2.0, wps-templates-osistematico-2019-1.0
+Installed-Size: 26364
+Maintainer: HenriqueAD <www.youtube.com/OSistematico>
+Architecture: all
+Version: 1.0
+Homepage: http://www.osistematico.com.br
+Depends: wps-office
+Copyright: MIT
+Description: wps-osistematico-language-pt-br
+ Apoie nosso projeto, SISTEMATICAMENTE!, em "www.youtube.com/OSistematico".
+ Este arquivo contém o corretor ortográfico disponível em PT-BR baseado no huspell e PT-PT comunitário, symbol fonts, para o WPS Office 2019.
+ Todos os direitos autorais devem ser atribuidos aos seus respectivos donos.
+
