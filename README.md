@@ -1,4 +1,7 @@
 # wps-osistematico-language-pt-br
+
+**Projeto pausado por tempo indeterminado!**
+
 Refatoração do pacote de tradução, idioma, dicionário do WPS Office Linux PT-BR (OSistemático).
 
 Este pacote é um projeto pessoal criado para sanar minhas necessidades ao utilizar a suíte WPS Office (Linux).
